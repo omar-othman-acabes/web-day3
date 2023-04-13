@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Sponser Regesteration</h1>
+      <div class="outer">
+        <div class="page-half">
+          <div class="halfhalf label-input">
+            <label>Prefex</label>
+            <input type="text" id="prefex"/>
+          </div>
+
+          <div class="label-input halfhalf name">
+            <label>Name</label>
+            <div>
+              <input type="text" placeholder="First Name" id="fname" />
+              <input type="text" placeholder="Last Name" id="lname" />
+            </div>
+          </div>
+
+          <div class="halfhalf label-input">
+            <label>Preffered Pronouns</label>
+            <input type="text" id="pref-pro" />
+          </div>
+
+          <div class="halfhalf label-input">
+            <label>Email</label>
+            <input type="text" placeholder="Sample@example.com" id="email" />
+          </div>
+
+          <div class="halfhalf label-input">
+            <label>Work Phone</label>
+            <input type="text" id="workphone" />
+          </div>
+
+          <div class="halfhalf label-input">
+            <label>Cell Phone</label>
+            <input type="text" id="cellphone" />
+          </div>
+
+          <div class="halfhalf label-input">
+            <label>Job Title</label>
+            <input type="text" id="job-title" />
+          </div>
+
+          <div class="halfhalf label-input">
+            <label>Company</label>
+            <input type="text" id="com" />
+          </div>
+
+          <div class="label-input top-down">
+            <label>Full buisness Address</label>
+            <input type="text" id="address" />
+          </div>
+
+          <div class="label-input top-down">
+            <label>Company Website</label>
+            <input type="text" id="website" />
+          </div>
+        </div>
+
+        <div class="page-half">
+          <div class="label-input top-down">
+            <label>Company Descreption</label>
+            <textarea id="desc" cols="30" rows="5"></textarea>
+          </div>
+          <div class="label-input top-down">
+            <label>Company Facebook Page</label>
+            <input type="text" id="fb-page" />
+          </div>
+          <div class="label-input top-down">
+            <label>Company Twitter Handle</label>
+            <input type="text" id="twitter-handle" />
+          </div>
+          <div class="label-input top-down">
+            <label>Company LinkedIn Handle</label>
+            <input type="text" id="linkedin-handle" />
+          </div>
+
+          <div class="label-input">
+            <label>Sponsership Level</label>
+            <div class="label-radio">
+              <input type="radio" name="splevel" id="" checked>
+              <label>Gold</label>
+            </div>
+            <div class="label-radio">
+              <input type="radio" name="splevel" id="">
+              <label>Diamond</label>
+            </div>
+            <div class="label-radio">
+              <input type="radio" name="splevel" id="">
+              <label>Platenium</label>
+            </div>
+
+            <div class="label-input top-down">
+              <label>Additional Guests (name, email)</label>
+              <input type="text" id="add-guests" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button id="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

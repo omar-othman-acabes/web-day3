@@ -1,0 +1,55 @@
+.outer {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+}
+
+.page-half {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+}
+
+.page-half:first-of-type {
+    border-right: 1px solid rgb(158, 158, 158);
+}
+
+
+.halfhalf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-input {
+    padding: 7px;
+}
+
+.top-down {
+    display: flex;
+    flex-direction: column;
+}
+
+.name input {
+    width: 73px;
+}
+
+input {
+    padding: 4px;
+}
+
+.label-radio {
+    margin: 5px 0 0 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+
